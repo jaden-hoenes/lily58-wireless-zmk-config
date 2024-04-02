@@ -13,22 +13,22 @@
         compatible = "zmk,combos";
 
         toLayer1 {
-            bindings = <&to 1>;
+            bindings = <&tog 1>;
             key-positions = <1 51 56>;
         };
 
         toLayer2 {
-            bindings = <&to 2>;
+            bindings = <&tog 2>;
             key-positions = <51 56 2>;
         };
 
         toLayer3 {
-            bindings = <&to 3>;
+            bindings = <&tog 3>;
             key-positions = <51 56 3>;
         };
 
         toDefaultLayer {
-            bindings = <&to 0>;
+            bindings = <&tog 0>;
             key-positions = <51 56 0>;
         };
     };
