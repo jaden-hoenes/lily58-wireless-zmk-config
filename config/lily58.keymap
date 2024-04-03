@@ -14,22 +14,22 @@
 
         toLayer3 {
             bindings = <&to 3>;
-            key-positions = <3 52 56>;
+            key-positions = <3 56 51 52>;
         };
 
         toLayer2 {
             bindings = <&to 2>;
-            key-positions = <52 56 2>;
+            key-positions = <56 2 51 52>;
         };
 
         toLayer1 {
             bindings = <&to 1>;
-            key-positions = <52 56 1>;
+            key-positions = <56 1 51 52>;
         };
 
         toDefaultLayer {
             bindings = <&to 0>;
-            key-positions = <52 56 0>;
+            key-positions = <56 0 51 52>;
         };
     };
 
