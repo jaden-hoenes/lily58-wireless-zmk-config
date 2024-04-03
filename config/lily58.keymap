@@ -9,7 +9,29 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        toLayer3 {
+            bindings = <&to 3>;
+            key-positions = <3 52 56>;
+        };
+
+        toLayer2 {
+            bindings = <&to 2>;
+            key-positions = <52 56 2>;
+        };
+
+        toLayer1 {
+            bindings = <&to 1>;
+            key-positions = <52 56 1>;
+        };
+
+        toDefaultLayer {
+            bindings = <&to 0>;
+            key-positions = <52 56 0>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -28,7 +50,7 @@
 &kp TAB    &kp Q   &kp W         &kp F         &kp P   &kp B                             &kp J          &kp L   &kp U      &kp Y    &kp SEMICOLON  &kp MINUS
 &kp LCTRL  &kp A   &kp R         &kp S         &kp T   &kp G                             &kp M          &kp N   &kp E      &kp I    &kp O          &kp SLASH
 &kp LSHFT  &kp Z   &kp X         &kp C         &kp D   &kp V     &kp LBKT     &kp RBKT   &kp K          &kp H   &kp COMMA  &kp DOT  &kp EQUAL      &kp RSHFT
-                                 &mo 3         &mo 1   &kp LGUI  &kp ENTER    &kp SPACE  &kp BACKSPACE  &mo 2   &kp RGUI
+                                 &kp LEFT_ALT  &mo 1   &kp LGUI  &kp ENTER    &kp SPACE  &kp BACKSPACE  &mo 2   &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
