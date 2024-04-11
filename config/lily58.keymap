@@ -44,11 +44,11 @@
 
             display-name = "Lower";
             bindings = <
-&kp K_SCREENSAVER  &kp LC(UP_ARROW)  &kp LC(DOWN)  &trans        &trans        &trans                                &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC   &trans             &trans            &trans     &trans
-&trans             &kp F1            &kp F2        &kp F3        &kp F4        &kp F5                                &kp CARET             &kp AMPS               &kp ASTERISK       &kp SLASH         &kp PLUS   &trans
-&trans             &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                          &kp SEMI              &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp GREATER_THAN  &kp EQUAL  &trans
-&trans             &trans            &trans        &trans        &trans        &trans        &trans       &trans     &kp PIPE              &kp MINUS              &kp RIGHT_BRACKET  &kp TILDE         &kp RALT   &kp RCTRL
-                                                   &trans        &trans        &trans        &kp ENTER    &kp SPACE  &kp DELETE            &trans                 &trans
+&kp K_LOCK  &kp LC(UP_ARROW)  &kp LC(DOWN)  &trans        &trans        &trans                                &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC   &trans             &trans            &trans     &trans
+&trans      &kp F1            &kp F2        &kp F3        &kp F4        &kp F5                                &kp CARET             &kp AMPS               &kp ASTERISK       &kp SLASH         &kp PLUS   &trans
+&trans      &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                          &kp SEMI              &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp GREATER_THAN  &kp EQUAL  &trans
+&trans      &trans            &trans        &trans        &trans        &trans        &trans       &trans     &kp PIPE              &kp MINUS              &kp RIGHT_BRACKET  &kp TILDE         &kp RALT   &kp RCTRL
+                                            &trans        &trans        &trans        &kp ENTER    &kp SPACE  &kp DELETE            &trans                 &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
