@@ -43,11 +43,11 @@
 
             display-name = "Lower";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans     &trans                 &trans             &trans            &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp CARET  &kp AMPS               &kp ASTERISK       &kp SLASH         &kp PLUS   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp SEMI   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp GREATER_THAN  &kp EQUAL  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &kp MINUS              &kp RIGHT_BRACKET  &kp TILDE         &trans     &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans     &trans                 &trans
+&trans  &trans        &trans        &trans        &trans        &trans                          &trans     &trans                 &trans             &trans            &trans     &trans
+&trans  &trans        &trans        &trans        &trans        &trans                          &kp CARET  &kp AMPS               &kp ASTERISK       &kp SLASH         &kp PLUS   &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &kp SEMI   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp GREATER_THAN  &kp EQUAL  &trans
+&trans  &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans     &kp MINUS              &kp RIGHT_BRACKET  &kp TILDE         &trans     &trans
+                                    &trans        &trans        &trans        &trans    &trans  &trans     &trans                 &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -63,11 +63,11 @@
 
             display-name = "Raise";
             bindings = <
-&trans  &trans         &trans         &trans            &trans                &trans                         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp EXCL       &kp AT         &kp HASH          &kp DOLLAR            &kp PERCENT                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp BACKSLASH  &kp LESS_THAN  &kp LEFT_BRACE    &kp LEFT_PARENTHESIS  &kp COLON                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &kp GRAVE      &kp LEFT_BRACKET  &kp UNDER             &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                      &trans            &trans                &trans       &trans    &trans  &trans  &trans  &trans
+&trans  &trans         &trans         &trans            &trans                &trans                         &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &kp EXCL       &kp AT         &kp HASH          &kp DOLLAR            &kp PERCENT                    &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &kp BACKSLASH  &kp LESS_THAN  &kp LEFT_BRACE    &kp LEFT_PARENTHESIS  &kp COLON                      &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
+&trans  &trans         &kp GRAVE      &kp LEFT_BRACKET  &kp UNDER             &trans       &trans    &trans  &trans        &trans        &trans        &trans        &trans        &trans
+                                      &trans            &trans                &trans       &trans    &trans  &trans        &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
