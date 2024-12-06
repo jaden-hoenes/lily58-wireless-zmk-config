@@ -29,8 +29,6 @@
 &kp RET     &kp Z      &kp X          &kp C     &kp V          &kp B                 &kp LBKT     &kp RBKT   &kp N                  &kp M      &kp COMMA  &kp SINGLE_QUOTE  &kp QUESTION  &kp RET
                                       &none     &mo 1          &kp LEFT_PARENTHESIS  &kp SPACE    &kp SPACE  &kp RIGHT_PARENTHESIS  &mo 2      &none
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         numbers {
